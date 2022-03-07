@@ -28,6 +28,13 @@ functions:
           path: /todos
           method: get
 
+  fetchTodo:
+    handler: src/fetchTodo.handler
+    events:
+      - http:
+          path: /todo/{id}
+          method: get
+
 
 resources:
   Resources:

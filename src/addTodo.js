@@ -17,7 +17,7 @@ const addTodo = async (event) => {
   }
 
   const response = await  dynamoDB.put({
-    tableName: 'TodoTable',
+    TableName: 'TodoTable',
     Item: newTodo
   }).promise();
 
