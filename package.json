@@ -1,0 +1,16 @@
+{
+  "name": "aws-node-http-api-project",
+  "version": "1.0.0",
+  "description": "A simple app with serverless, AWS lambda and AWS-DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samuel Mpwanyi",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1086.0",
+    "uuid": "^8.3.2"
+  }
+}
